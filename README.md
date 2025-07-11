@@ -95,7 +95,7 @@ LinkedIn_Job_Market_Analysis/<br>
 │<br>
 ├── streamlit_scripts.sql # Scripts Streamlit complets, avec explications des visualisations<br>
 │<br>
-├── screenshots/ # (Optionnel) Captures des résultats dans Snowflake Streamlit<br>
+├── screenshots/ # Captures des résultats dans Snowflake Streamlit<br>
 │<br>
 ├── README.md # Documentation complète du projet (ce fichier)<br>
 
