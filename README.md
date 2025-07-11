@@ -49,20 +49,36 @@ Les scripts Streamlit utilisés dans Snowflake sont regroupés dans le fichier [
 Chaque section correspond à une visualisation demandée, avec les explications et le résultat attendu.
 
 ### Visualisations incluses :
-- **Top 10 des titres de postes les plus publiés par industrie**  
-Bar Chart permettant de visualiser les titres de postes les plus fréquents dans chaque secteur.
 
-- **Top 10 des postes les mieux rémunérés par industrie**  
+- **Top 10 des titres de postes les plus publiés par industrie**  
+Bar Chart permettant de visualiser les titres de postes les plus publiés dans chaque secteur.
+<img width="1916" height="923" alt="image" src="https://github.com/user-attachments/assets/da190569-99e0-42e5-8090-7b21bd75bea1" />
+<br>
+<br>
+
+- **Top 10 des postes les mieux rémunérés par industrie** <br>
 Bar Chart affichant les postes offrant les salaires maximums les plus élevés par industrie.
+<img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/e7cf91c3-625d-487d-98fc-fd85d158a703" />
+<br>
+<br>
 
 - **Répartition des offres par taille d’entreprise**  
-Diagramme circulaire ou en barres montrant la part des offres selon la taille des entreprises.
+Bar Chart montrant la part des offres selon la taille des entreprises.
+<img width="1917" height="926" alt="image" src="https://github.com/user-attachments/assets/ae72e88a-3c40-4f2c-b095-cdd65286f3e9" />
+<br>
+<br>
 
-- **Répartition des offres par secteur d’activité**  
-Bar Chart mettant en évidence les secteurs les plus représentés parmi les offres d’emploi.
+- **Répartition des offres par secteur d’activité**
+<br>Bar Chart montrant la répartition des offres par secteur d’activité.
+<img width="1913" height="923" alt="image" src="https://github.com/user-attachments/assets/ef25b886-0825-48c9-9290-6c6e8ff08fcc" />
+<br>
+<br>
 
-- **Répartition des offres par type d’emploi**  
-Bar Chart montrant la répartition selon le type de contrat (temps plein, partiel, stage…).
+- **Répartition des offres par type d’emploi** 
+<br>Bar Chart montrant la répartition selon le type de contrat (temps plein, partiel, stage…).
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/3db1bded-6c42-464d-add5-8b0f7df2b2cc" />
+<br>
+
 
 Chaque visualisation repose sur une requête SQL et les résultats sont commentés dans le fichier.
 
@@ -89,13 +105,11 @@ Tous les scripts SQL et Streamlit sont commentés et organisés pour assurer une
 ---
 
 ## 📂 Structure du dépôt
-LinkedIn_Job_Market_Analysis/<br>
+Linkedin-project/<br>
 │<br>
 ├── sql_scripts.sql # Scripts SQL complets, commentés et organisés par étapes<br>
 │<br>
 ├── streamlit_scripts.sql # Scripts Streamlit complets, avec explications des visualisations<br>
-│<br>
-├── screenshots/ # Captures des résultats dans Snowflake Streamlit<br>
 │<br>
 ├── README.md # Documentation complète du projet (ce fichier)<br>
 
